@@ -1,0 +1,18 @@
+{
+    "name": "ha-ws-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bin/index.js",
+    "bin": {
+        "ha-opaxos": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "homeassistant-ws": "^0.2.2"
+    }
+}
